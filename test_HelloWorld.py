@@ -1,4 +1,4 @@
-import Strings
+import HelloWorld
 def test_display():
-    received=Strings.display()
+    received=HelloWorld.display()
     assert received=="hello world"
