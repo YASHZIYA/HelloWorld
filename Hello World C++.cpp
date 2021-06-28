@@ -1,7 +1,12 @@
 #include<iostream.h>
 
+void printMessage()
+{
+  cout<<"Hello World C++";
+}
+
 int main()
 {
-  cout<<"Hello World";
+  printMessage();
   return 0;
 }
